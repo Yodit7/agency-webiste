@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Very Basic</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font family -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter;400&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    
+    <!-- HEADER / NAV -->
+    <header class="hidden-2">
+        <div class="header-primary">
+            <a href="index.html"><img src="images/very_basic_logo.svg" class="logo nav-grid-item"></a>
+        </div>
+        <!-- <button type="button" class="btn-nav"><a href="#" onclick="toggleMobileMenu(this)" id="menu_open">Open Menu</a></button> -->
+        <a href="#" id="menu_open">Open Menu</a>
+        <a href="#" id="menu_close">Close Menu</a>
+        
+        <a href="about.html" class="nav-item" id="nav-item-about">About</a>
+        <a href="contact.html" class="nav-item" id="nav-item-contact">Contact</a>
+        
+        <nav class="nav-primary nav-grid-item">
+            <ul class="nav-list">        
+                <!-- <button type="button" class="btn-nav_close"><a href="#" onclick="toggleMobileMenu(this)" id="menu_close">Close Menu</a></button> -->
+                <li><a href="about.html" class="nav-item hidden">About</a></li>
+                <li><a href="contact.html" class="nav-item hidden">Contact</a></li>
+            </ul>
+            <!-- <a href="#" id="menu_close">Close Menu</a> -->
+
+        </nav>
+
+        <!-- <div class="mobile_menu">
+            <button type="button" class="btn-nav-mobile" onclick="toggleMobileMenu(this)">
+                <a href="#" class="" id="open-icon">Open Menu</a>
+            </button>
+        </div> -->
+    </header>
+
+
+    <!-- LANDING PAGE -->
+    <section class="section_smaller">
+        <div class="landing_page">
+            <h1 class="landing_page_headline hidden-2">
+                Selected <br> Work
+            </h1>
+            <img src="images/landing_page.gif" class="landing_page_image hidden">
+        </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="section_smaller">
+        <div class="intro">
+            <h6 class="intro_description_headline">Welcome</h6>
+            <h2 class="intro_heading hidden">We are a digital agency based in London, UK. 
+                We create strategies and digital experiences.</h2>
+            <div class="intro_description hidden">
+                <p class="intro_description_content">Our concept is very basic. We believe in simplicity and clarity, all the way from exploration, across 
+                    strategy and branding to design and development of a product.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENT PROJECTS -->
+    <section class="section_smaller">
+        <div class="recent_projects_headline">
+            <h6 class="recent_projects_heading">Recent Projects</h6>
+            <p class="recent_projects_timeline">2019 - 2023</p>
+        </div>
+        <div class="recent_projects">
+            <div class="recent_project">
+                <img src="images/enable.png" class="recent_project_img">
+                <h1 class="recent_project_headline hidden">Enable</h1>
+                <p class="recent_project_content">Strategy</p>
+            </div>
+            <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+            <div class="recent_project">
+                <img src="images/depth.png" class="recent_project_img">
+                <h1 class="recent_project_headline hidden">Depth</h1>
+                <p class="recent_project_content">Design</p>
+            </div>
+            <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+            <div class="recent_project">
+                <img src="images/warren.png" class="recent_project_img">
+                <h1 class="recent_project_headline hidden">Warren</h1>
+                <p class="recent_project_content">Development</p>
+            </div>
+            <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+            <div class="recent_project">
+                <img src="images/something.png" class="recent_project_img">
+                <h1 class="recent_project_headline hidden">Something</h1>
+                <p class="recent_project_content">Design</p>
+            </div>
+            <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+            <div class="recent_project">
+                <img src="images/remarkable.png" class="recent_project_img">
+                <h1 class="recent_project_headline hidden">Remarkable</h1>
+                <p class="recent_project_content">Stragety</p>
+            </div>
+            <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+        </div>
+    </section>
+
+    <!-- IMG -->
+    <section class="section_image_fullwidth">
+        <img src="images/section_image.webp" class="section_image">
+    </section>
+
+    <!-- ABOUT US -->
+    <section>
+        <div class="about_us">
+            <h4 class="about_us_headline grid-item-as">About us</h4>
+            <p class="about_us_content grid-item-as hidden">Our team has more than 20 years of 
+                experience within the industry. We've been fortunate to work 
+                with great clients over the years.</p>
+            <a href="#" class="about_us_refer grid-item-as">Read more about us</a>
+        </div>
+    </section>
+
+    <!-- CLIENTS -->
+    
+    <section>
+        <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+        <div class="clients_container">
+            <h6 class="clients_headline">Clients</h6>
+            <div class="clients hidden">
+                <div class="client">Penta</div>
+                <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+                <div class="client">Blossom</div>
+                <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+                <div class="client">Sitemark</div>
+                <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+                <div class="client">Recharge</div>
+                <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+                <div class="client">Automation</div>
+                <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+            </div>
+        </div>
+        <hr noshade style="margin-bottom: 80px; height: 0.5px; border: 0;"/>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- footer for flex -->
+    <!-- <footer>
+        <div class="footer_container">
+        <img src="images/very_basic_logo.svg">
+            <h6 class="footer_headline">An independent design studio from London.</h6>
+            <div class="footer_nav">
+                <div class="footer_nav_links_all">
+                    <h5 class="footer_nav_heading">Pages</h5>
+                    <ul class="footer_nav_links">
+                        <li><a href="#" class="footer_nav_item">About</a></li>
+                        <li><a href="#" class="footer_nav_item">Home</a></li>
+                        <li><a href="#" class="footer_nav_item">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_nav_links_all">
+                    <h5 class="footer_nav_heading">Template</h5>
+                    <ul class="footer_nav_links">
+                        <li><a href="#" class="footer_nav_item">Styleguide</a></li>
+                        <li><a href="#" class="footer_nav_item">Licenses</a></li>
+                        <li><a href="#" class="footer_nav_item">Changelog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer_copyright"><i class="bi bi-c-circle"></i>Copright 2023 – Very Basic</p> 
+            <div class="footer_bottom_line">
+                <a href="#" class="footer_link">Webflow</a>
+                <a href="#" class="footer_link footer_link_shift">All templates</a>
+            </div>
+        </div>
+    </footer> -->
+
+
+    <!-- footer for grid style -->
+    <footer>
+        <div class="footer_container">
+            <img src="images/very_basic_logo.svg" class="grid-item">
+            <p class="footer_headline grid-item">An independent design studio from London.</p>
+            <div class="footer_links_container grid-item">
+                <h3>Pages</h3>
+                <a href="#" class="footer_nav_item">About</a>
+                <a href="#" class="footer_nav_item">Home</a>
+                <a href="#" class="footer_nav_item">Contact</a>
+            </div>
+            <div class="footer_links_container grid-item">
+                <h3>Template</h3>
+                <a href="#" class="footer_nav_item">Styleguide</a>
+                <a href="#" class="footer_nav_item">Licenses</a>             
+                <a href="#" class="footer_nav_item">Changelog</a>         
+            </div>
+            <p class="footer_copyright grid-item"><i class="bi bi-c-circle"></i>Copright 2023 – Very Basic</p> 
+            <a href="#" class="footer_link grid-item">Webflow</a>
+            <a href="#" class="footer_link grid-item">All templates</a>
+        </div>
+    </footer>
+
+
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+</html>
